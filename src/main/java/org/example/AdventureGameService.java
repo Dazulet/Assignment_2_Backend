@@ -24,12 +24,12 @@ class AdventureGameService implements GameService {
 
     @Override
     public void attack() {
-        System.out.println(player.getName() + " attacks the enemy!");
+        System.out.println(player.getName() + " attacks the enemy");
     }
 
     @Override
     public void levelUp() {
         player.levelUp();
-        System.out.println(player.getName() + " leveled up! New level: " + player.getLevel());
+        System.out.println(player.getName() + "you leveled up : " + player.getLevel());
     }
 }

@@ -25,6 +25,6 @@ public class Player {
 
     @Override
     public String toString() {
-        return "Player{name='" + name + "', role='" + role + "', level=" + level + "}";
+        return "[ name = " + name + "', role = " + role + " level = " + level +" ]";
     }
 }

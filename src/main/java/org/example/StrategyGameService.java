@@ -8,16 +8,16 @@ import org.springframework.stereotype.Service;
 class StrategyGameService implements GameService {
     @Override
     public void startGame() {
-        System.out.println("Starting Strategy Game...");
+        System.out.println("Starting Game");
     }
 
     @Override
     public void attack() {
-        System.out.println("Strategy game attack simulation.");
+        System.out.println("Strategy game attack");
     }
 
     @Override
     public void levelUp() {
-        System.out.println("Strategy game level-up mechanics.");
+        System.out.println("Strategy game level-up ");
     }
 }
